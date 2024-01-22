@@ -1,0 +1,27 @@
+/* Media query for responsive screen */
+
+@media(max-width:1200px){
+    .main-form{
+        width:70%
+    }
+}
+@media(max-width:800px){
+    .job-position h1{
+        font-size: 42px;
+    }
+    .main-form{
+        width:80%
+    }
+    .bi{
+        font-size: 15px;
+    }
+}
+
+@media(max-width:500px){
+    .job-position h1{
+        font-size: 38px;
+    }
+    .bi{
+        font-size: 14px;
+    }
+}
