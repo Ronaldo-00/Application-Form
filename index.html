@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <!-- Bootstrap icon Cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" 
+    integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
+    <!-- External stylesheet link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- External media-query stylesheet -->
+    <link rel="stylesheet" href="media-query.css">
+    <!-- Favicon -->
+    <link rel="icon" href="logo.png">
+</head>
+<body>
+    <section class="main"> <!--Starting of main section-->
+        <!-- Scroll top button -->
+        <button onclick="topFunction()" id="top-toggle">&#8593;</button>
+        <div class="header"><!--Header start-->
+            <div class="logo"><!--Logo start-->
+                <img src="logo.png">
+            </div><!--Logo end-->
+        </div><!--Header end-->
+        <div class="job-heading"><!--Job heading start-->
+            <div class="heading-container"><!--Heading container start-->
+                <div class="org-name">
+                    <p>Planet Corporation | <span>Full time</span></p>        
+                </div>
+                <div class="job-position">
+                    <h1>Web Developers</h1>
+                </div>
+                <div class="media-links">
+                    <i class="bi bi-share-fill"></i>
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-whatsapp"></i></a>
+                    <a href="#"><i class="bi bi-twitter"></i></a>
+                    <a href="#"><i class="bi bi-meta"></i></a>
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                    <a href="#"><i class="bi bi-telegram"></i></a>
+                </div>
+            </div><!--Heading container end-->
+        </div><!--Job heading End-->
+        <div class="main-form"><!--Main form start-->
+            <div class="form-heading">
+                <h3>Personal Details</h3>
+            </div>
+            <div class="form-content"><!--Form content start-->
+                <!--First name-->
+                <div class="form-row">
+                    <label>First Name </label><span class="mandatory">*</span>
+                    <div class="form-row-select">
+                        <select class="select">
+                            <option>-None</option>
+                            <option>Mr</option>
+                            <option>Mrs</option>
+                            <option>Ms</option>
+                        </select>
+                        <input>
+                    </div>
+                </div>
+                <!-- Last name -->
+                <div class="form-row">
+                    <label>Last Name </label><span class="mandatory">*</span>
+                    <div class="form-row-select">
+                        <input>
+                    </div>
+                </div>
+                <!-- Email -->
+                <div class="form-row">
+                    <label>Email </label><span class="mandatory">*</span>
+                    <div class="form-row-select">
+                        <input>
+                    </div>
+                </div>
+                <!-- Mobile -->
+                <div class="form-row">
+                    <label>Mobile Number </label><span class="mandatory">*</span>
+                    <div class="form-row-select">
+                        <input>
+                    </div>
+                </div>
+                <!-- Year of graduation -->
+                <div class="form-row">
+                    <label>Year of graduation </label><span class="mandatory">*</span>
+                    <div class="form-row-select">
+                        <input>
+                    </div>
+                </div>
+                 <!--Gender-->
+                 <div class="form-row">
+                    <label>Gender </label><span class="mandatory">*</span>
+                    <div class="form-row-select">
+                        <select class="select main-option">
+                            <option>-None-</option>
+                            <option>Male</option>
+                            <option>Female</option>
+                            <option>Not Willing to discuss</option>
+                        </select>
+                    </div>
+                </div>
+                 <!--Experience in year-->
+                <div class="form-row">
+                    <label>Experience in year </label><span class="mandatory">*</span>
+                    <div class="form-row-select">
+                        <select class="select main-option">
+                            <option>-None-</option>
+                            <option>Fresher</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                </div>    
+                <!-- Cureent Employer -->
+                <div class="form-row">
+                    <label>Current Employer </label><span class="mandatory">*</span>
+                    <div class="form-row-select">
+                        <input>
+                    </div>
+                </div>
+                <!--Current CTC-->
+                <div class="form-row">
+                    <label>Current CTC </label><span class="mandatory">*</span>
+                    <div class="form-row-select">
+                        <select class="select main-option">
+                            <option>-None-</option>
+                            <option>Not applicable</option>
+                            <option>1-3</option>
+                            <option>3-5</option>
+                            <option>5-7</option>
+                            <option>7-10</option>
+                        </select>
+                    </div>
+                </div>
+                <!--Expected CTC-->
+                <div class="form-row">
+                    <label>Expected CTC </label><span class="mandatory">*</span>
+                    <div class="form-row-select">
+                        <select class="select main-option">
+                            <option>-None-</option>
+                            <option>Not applicable</option>
+                            <option>1-3</option>
+                            <option>3-5</option>
+                            <option>5-7</option>
+                            <option>7-10</option>
+                        </select>
+                    </div>
+                </div>
+                <!--Notice period-->
+                <div class="form-row">
+                    <label>Notice Period </label><span class="mandatory">*</span>
+                    <div class="form-row-select">
+                        <select class="select main-option">
+                            <option>-None</option>
+                            <option>Not applicable</option>
+                            <option>1 Month</option>
+                            <option>2 Month</option>
+                            <option>3 Month</option>
+                        </select>
+                    </div>
+                </div>
+                <!-- Skill set -->
+                <div class="form-row">
+                    <label>Skill sets </label><span class="mandatory">*</span>
+                    <div class="form-row-select">
+                        <input>
+                    </div>
+                </div>
+                <!-- Cureent location -->
+                <div class="form-row">
+                    <label>Current Location </label><span class="mandatory">*</span>
+                    <div class="form-row-select">
+                        <input>
+                    </div>
+                </div>
+                <!--Prefered location-->
+                <div class="form-row">
+                    <label>Prefered Location </label><span class="mandatory">*</span>
+                    <div class="form-row-select">
+                        <select class="select main-option">
+                            <option>-None-</option>
+                            <option>Madurai</option>
+                            <option>Chennai</option>
+                            <option>Trichy</option>
+                            <option>Dindigul</option>
+                            <option>Bangalore</option>
+                        </select>
+                    </div>
+                </div>
+            </div><!---Form content end-->
+            <!-- form upload -->
+            <div class="form-upload">
+                <h3>Upload you Resume</h3>
+                <!-- Resume -->
+                <div class="form-row">
+                    <label>Resume </label><span class="mandatory">*</span>
+                    <div class="form-row-select-upload_file">
+                        <input type="file" id="files" style="display: none;">
+                        <label for="files">Browse</label>
+                    </div>
+                </div>
+                <!-- Submit -->
+                <div class="submit-button">
+                    <button class="btn">Submit Application</button>
+                </div>
+            </div>
+        </div><!--Main form end-->
+        <div class="footer"><!--Footer start-->
+            <div class="extra-links">
+                <a href="#">View all jobs</a>
+                <a href="#" style="padding-left: 20px;">Visit website</a>
+            </div>
+            <div class="powered-by">
+                <p>powered-by</p>
+                <a href="#"><img src="logo.png"></a>
+            </div>
+        </div><!--Footer end-->
+       
+    </section><!--End of main section--->
+
+<!-- External javascript file -->
+<script src="script.js"></script>
+
+</body>
+</html>
